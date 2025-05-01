@@ -44,6 +44,7 @@ git pull
 
 **Wynik:**  
 Najnowsze zmiany zostały pobrane z repozytorium.  
+
 ![Git Pull](./Zdjęcia/7.png)
 
 ---
@@ -60,6 +61,7 @@ docker pull ubuntu
 
 **Wynik:**  
 Obraz Ubuntu został pobrany z publicznego repozytorium.  
+
 ![Docker Pull](./Zdjęcia/8.png)
 
 ---
@@ -100,6 +102,7 @@ docker ps
 
 **Wynik:**  
 Kontener jest widoczny na liście działających kontenerów.  
+
 ![Docker PS](./Zdjęcia/8.png)
 
 ---
@@ -130,6 +133,7 @@ apt-get install -y net-tools python3 python3-pip nano
 
 **Wynik:**  
 Pakiety zostały zainstalowane.  
+
 ![Install Packages](./Zdjęcia/9.png)
 
 ---
@@ -199,6 +203,7 @@ docker stop 9c831df61a0f
 
 **Wynik:**  
 Kontener został zatrzymany.  
+
 ![Docker Stop](./Zdjęcia/10.png)
 
 ---
@@ -244,6 +249,7 @@ docker build -f path_to_dockerfile .
 
 **Wynik:**  
 Obraz został zbudowany.
+
 ![Docker Build](./Zdjęcia/12.png)
 
 ---
@@ -267,6 +273,7 @@ Utworzono plik `main.py` w nowym kontenerze i uruchomiono go. Skrypt działał b
 
 **Wynik:**  
 Kod został uruchomiony.
+
 ![Code Run](./Zdjęcia/14.png)
 
 ---
