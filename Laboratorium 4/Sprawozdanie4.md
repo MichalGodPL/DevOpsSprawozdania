@@ -44,7 +44,7 @@ git pull
 
 **Wynik:**  
 Najnowsze zmiany zostały pobrane z repozytorium.  
-![Git Pull](C:\Users\Admin\Documents\GitHub\DevOpsSprawozdania\Laboratorium 4\Zdjęcia\7.png)
+![Git Pull](./Zdjęcia/7.png)
 
 ---
 
@@ -60,7 +60,7 @@ docker pull ubuntu
 
 **Wynik:**  
 Obraz Ubuntu został pobrany z publicznego repozytorium.  
-![Docker Pull](C:\Users\Admin\Documents\GitHub\DevOpsSprawozdania\Laboratorium 4\Zdjęcia\8.png)
+![Docker Pull](./Zdjęcia/8.png)
 
 ---
 
@@ -73,8 +73,7 @@ docker images
 ```
 
 **Wynik:**  
-Lista pobranych obrazów zawiera obraz `ubuntu`.  
-![Docker Images](screenshot4.png)
+Lista pobranych obrazów zawiera obraz `ubuntu`.
 
 ---
 
@@ -101,7 +100,7 @@ docker ps
 
 **Wynik:**  
 Kontener jest widoczny na liście działających kontenerów.  
-![Docker PS](screenshot5.png)
+![Docker PS](./Zdjęcia/8.png)
 
 ---
 
@@ -131,7 +130,7 @@ apt-get install -y net-tools python3 python3-pip nano
 
 **Wynik:**  
 Pakiety zostały zainstalowane.  
-![Install Packages](screenshot6.png)
+![Install Packages](./Zdjęcia/9.png)
 
 ---
 
@@ -200,7 +199,7 @@ docker stop 9c831df61a0f
 
 **Wynik:**  
 Kontener został zatrzymany.  
-![Docker Stop](screenshot7.png)
+![Docker Stop](./Zdjęcia/10.png)
 
 ---
 
@@ -214,8 +213,7 @@ docker ps -a
 ```
 
 **Wynik:**  
-Kontener został usunięty.  
-![Docker Remove](screenshot8.png)
+Kontener został usunięty.
 
 ---
 
@@ -246,6 +244,7 @@ docker build -f path_to_dockerfile .
 
 **Wynik:**  
 Obraz został zbudowany.
+![Docker Build](./Zdjęcia/12.png)
 
 ---
 
@@ -264,6 +263,11 @@ Zweryfikowano działanie kontenera za pomocą `docker ps` i podłączono się do
 ### 4.6 Testowanie `main.py`
 
 Utworzono plik `main.py` w nowym kontenerze i uruchomiono go. Skrypt działał bez błędów dzięki automatycznej instalacji bibliotek.
+
+
+**Wynik:**  
+Kod został uruchomiony.
+![Code Run](./Zdjęcia/14.png)
 
 ---
 
