@@ -25,9 +25,9 @@ git pull
 - `git pull` pobrało najnowsze zmiany z brancha `main`.
 
 ### Zrzuty ekranu:
-![ ](2.png)
+![ ](Zdjęcia/2.png)
 
-![ ](3.png)
+![ ](Zdjęcia/3.png)
 ---
 
 ## Krok 2: Tworzenie nowego brancha
@@ -47,7 +47,7 @@ git push --set-upstream origin lab_3/new_branch_417298
 - `git push --set-upstream` wypchnęło branch na zdalne repozytorium i ustawiło śledzenie.
 
 ### Zrzut ekranu:
-![ ](4.png)
+![ ](Zdjęcia/4.png)
 ---
 
 ## Krok 3: Edycja brancha
@@ -72,9 +72,9 @@ git push
 - Zmiany zostały dodane do indeksu Git (`git add *`), zapisane w commicie i wypchnięte na zdalne repozytorium.
 
 ### Zrzuty ekranu:
-![ ](5.png)
+![ ](Zdjęcia/5.png)
 
-![ ](6.png)
+![ ](Zdjęcia/6.png)
 ---
 
 ## Krok 4: Code review
@@ -90,13 +90,13 @@ W tym kroku utworzono Pull Request (PR) do brancha `TEST`, wykonano code review 
 3. Zakończono review z podsumowaniem: "Proszę usunąć plik csv i dodać go do .gitignore." (bez akceptacji PR).
 
 ### Zrzuty ekranu:
-![ ](7.png)
+![ ](Zdjęcia/7.png)
 
-![ ](8.png)
+![ ](Zdjęcia/8.png)
 
-![ ](9.png)
+![ ](Zdjęcia/9.png)
 
-![ ](10.png)
+![ ](Zdjęcia/10.png)
 ---
 
 ## Krok 5: Poprawka kodu
@@ -125,11 +125,11 @@ git push
 - Wykonano commit i wypchnięto zmiany.
 
 ### Zrzuty ekranu:
-![ ](11.png)
+![ ](Zdjęcia/11.png)
 
-![ ](12.png)
+![ ](Zdjęcia/12.png)
 
-![ ](13.png)
+![ ](Zdjęcia/13.png)
 ---
 
 ## Krok 6: Naprawa repo
@@ -160,9 +160,9 @@ git push
 - Wypchnięto zmiany na zdalne repozytorium.
 
 ### Zrzuty ekranu:
-![ ](14.png)
+![ ](Zdjęcia/14.png)
 
-![ ](16.png)
+![ ](Zdjęcia/16.png)
 ---
 
 ## Krok 7: Sprawozdanie
@@ -186,7 +186,7 @@ git push
 - Dodano sprawozdanie do repozytorium i wypchnięto zmiany.
 
 ### Zrzut ekranu:
-![ ](18.png)
+![ ](Zdjęcia/18.png)
 ---
 
 ## Tematy dodatkowe
