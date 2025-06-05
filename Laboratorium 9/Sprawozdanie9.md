@@ -216,7 +216,7 @@ Aby uniknąć kosztów, usunięto grupę zasobów po zakończeniu testów:
 terraform destroy -auto-approve
 ```
 
-![Usunięcie Resource Group](Zdjęcia/5.png)
+![Usunięcie Resource Group](Zdjęcia/51.png)
 
 ---
 
@@ -235,7 +235,7 @@ git push origin Lab9/417298
 
 Utworzono Pull Request do brancha grupowego.
 
-![Pull Request](Zdjęcia/6.png)
+![Pull Request](Zdjęcia/61.png)
 
 ---
 
