@@ -177,7 +177,9 @@ terraform plan
 terraform apply -auto-approve
 ```
 
-![Wdrożenie infrastruktury Terraform](Zdjęcia/2.png)
+![Wdrożenie infrastruktury Terraform](Zdjęcia/21.png)
+
+![Wdrożenie infrastruktury Terraform](Zdjęcia/22.png)
 
 ---
 
@@ -192,7 +194,7 @@ ssh adminuser@<vm2_public_ip>
 
 Połączenie udało się dzięki skonfigurowanemu kluczowi SSH i regule NSG.
 
-![Połączenie SSH](Zdjęcia/3.png)
+![Połączenie SSH](Zdjęcia/23.png)
 
 ---
 
