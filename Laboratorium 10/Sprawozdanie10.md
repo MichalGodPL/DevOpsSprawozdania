@@ -1,4 +1,4 @@
-# Sprawozdanie z Laboratorium 11: Azure Kubernetes Service (AKS) 🚀
+# Sprawozdanie z Laboratorium 10: Azure Kubernetes Service (AKS) 🚀
 
 ## Cel Laboratorium 🎯
 Celem laboratorium było zapoznanie się z platformą Kubernetes (K8s) do wdrażania aplikacji z Docker Registry na klastrze Azure Kubernetes Service (AKS). Wykonano zadania związane z aktualizacją repozytorium, budową i wypchnięciem obrazu Docker do Azure Container Registry (ACR), konfiguracją połączenia z klastrem AKS, wdrożeniem aplikacji na klaster oraz przeprowadzeniem testów funkcjonalnych. Przygotowano sprawozdanie w formacie Markdown dokumentujące wszystkie kroki.
