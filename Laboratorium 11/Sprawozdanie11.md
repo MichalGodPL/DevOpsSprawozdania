@@ -120,7 +120,9 @@ ssh root@worker1
 ssh root@worker2
 ```
 
-📸 ![Screenshot połączenia SSH](images/ssh_connection_test.png)
+📸 ![Screenshot połączenia SSH](Zdjęcia/11.png)
+
+📸 ![Screenshot połączenia SSH](Zdjęcia/12.png)
 
 ## 4. ⚙️ Instalacja Ansible na masterze
 
@@ -141,7 +143,7 @@ apt install -y ansible
 ansible --version
 ```
 
-📸 ![Screenshot wersji Ansible](images/ansible_version.png)
+📸 ![Screenshot wersji Ansible](Zdjęcia/2.png)
 
 ## 5. 🎛️ Konfiguracja Ansible i utworzenie playbooka
 
@@ -163,7 +165,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ansible WORKERS -m ping
 ```
 
-📸 ![Screenshot testu ping](images/ansible_ping_test.png)
+📸 ![Screenshot testu ping](Zdjęcia/3.png)
 
 ### 5.3 📜 Utworzenie playbooka
 Plik `install_packages.yml`:
@@ -202,7 +204,11 @@ Plik `install_packages.yml`:
 ansible-playbook install_packages.yml
 ```
 
-📸 ![Screenshot wykonania playbooka](images/playbook_execution.png)
+📸 ![Screenshot wykonania playbooka](Zdjęcia/41.png)
+
+📸 ![Screenshot wykonania playbooka](Zdjęcia/42.png)
+
+📸 ![Screenshot wykonania playbooka](Zdjęcia/43.png)
 
 ## 6. 🧪 Weryfikacja instalacji
 
@@ -217,7 +223,7 @@ nano --version
 ifconfig
 ```
 
-📸 ![Screenshot weryfikacji ifconfig](images/ifconfig_verification.png)
+📸 ![Screenshot weryfikacji ifconfig](Zdjęcia/5.png)
 
 ### 6.3 ✅ Test narzędzi na worker2
 Analogiczna weryfikacja dla worker2 potwierdza poprawną instalację pakietów.
@@ -253,9 +259,9 @@ Plik `copy_file.yml`:
 ansible-playbook copy_file.yml
 ```
 
-## 8. 📊 Podsumowanie
+📸 ![Wykonanie playbooka kopiującego](Zdjęcia/6.png)
 
-✅ **Laboratorium zostało pomyślnie zakończone. Udało się:**
+## 8. 📊 Podsumowanie
 
 1. 🐳 Skonfigurować środowisko Docker z masterem i workerami
 2. 🔐 Ustanowić komunikację SSH między kontenerami
@@ -263,6 +269,8 @@ ansible-playbook copy_file.yml
 4. 📜 Utworzyć i wykonać playbooki automatyzujące instalację pakietów
 5. ✔️ Zweryfikować poprawność działania zainstalowanych narzędzi
 6. 🎁 Wykonać zadanie dodatkowe z kopiowaniem plików
+
+📸 ![Sprawdzenie stanu kontenerów Docker](Zdjęcia/7.png)
 
 ### 💡 Wnioski
 Ansible okazuje się być potężnym narzędziem do automatyzacji konfiguracji i zarządzania infrastrukturą. Dzięki playbookom można w prosty sposób automatyzować powtarzalne zadania administracyjne na wielu serwerach jednocześnie.
@@ -280,6 +288,3 @@ env_nrIndeksu/
     ├── playbook_execution.png
     └── ifconfig_verification.png
 ```
-
----
-**🎉 Koniec sprawozdania - Laboratorium 11 zakończone sukcesem!**
